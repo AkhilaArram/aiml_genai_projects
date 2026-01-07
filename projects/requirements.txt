@@ -1,0 +1,15 @@
+streamlit>=1.16.0
+python-dotenv
+langchain
+langchain-core>=0.1.52 # Core LangChain components
+langchain-google-genai
+langchain-community
+neo4j
+langgraph 
+pypdf # Required for PyPDFLoader in langchain_chatbot.py
+
+# The following packages are used by other scripts in my project:
+ faiss-cpu
+ openai-whisper
+ gTTS
+st-audiorec
